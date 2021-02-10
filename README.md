@@ -32,10 +32,10 @@ Most systems capable of running domoticz and has a version of python3 available 
 - Tested on Linux [Synology NAS] only
 
 ## Software requirements:
-1. Python version 3.5.3 or higher, 3.7.x recommended. 
-2. Domoticz compiled with support for Python-Plugins. 
-3. Upgraded pip.
-4. You need the pycrypto Python-module.
+1. Python version 3.5.3 or higher, 3.7.x recommended
+2. Domoticz compiled with support for Python-Plugins
+3. Upgraded pip
+4. You need the pycrypto Python-module
 
 ## Installation:
 ### 1. Clone Brel plugin into domoticz plugins-directory:
