@@ -11,7 +11,9 @@
 * [Usage](#usage)
   + [Blinds and curtains](#blinds-and-curtains)
   + [Venetian blinds](#venetian-blinds)
-  
+
+Brel offers some great motors for blinds and screens, for inside and outside use. Now there is a gateway in the form of the Brel Home Hub, which can be controlled from your smartphone. Ofcourse we want Domoticz to be able to communicate with the Home Hub aswel, and now we can!
+If you want to know more what the Brel Home Hub is all about, check their website: ([`https://www.brel-motors.nl/brel-app.html`](https://www.brel-motors.nl/brel-app.html))
 
 ## Key features
 - Creates devices in Domoticz for every device configured in your Brel Home Hub
