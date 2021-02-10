@@ -102,4 +102,4 @@ Lights and devices have to be added to the gateway as per Brel's instructions, u
 Domoticz sets the position of a curtain as a percentage between 0 (fully open) to 100 (fully closed). You need to set the maximum posistion of the curtain before using Domoticz. Please refer to the instructions from Brel on how to set the maximum position of a curtain. 
 
 ### Venetian blinds
-Besides the position, Domoticz sets the angle of a venetian blind in degrees. A percentage between 0 is converted by the plugin into degrees between 0 and 180. To open your blinds, set the angle to 50% (which translates to 90 degrees).
+Besides the position, Domoticz sets the angle of a venetian blind in degrees. A percentage between 0 and 100 is converted by the plugin into degrees between 0 and 180. To open your blinds, set the angle to 50% (which translates to 90 degrees).
