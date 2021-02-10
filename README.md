@@ -71,10 +71,10 @@ To find where pycrypto is installed, in a shell:
 ```
 The Crypto directory should be present in the directory indicated with Location.
 
-when you have it, just add a symbolic link to it in Domoticz-Tuya-Thermostat-Plugin directory with ```ln -s```.
+When you have it installed, just add a symbolic link to it in Domoticz-Brel-Plugin directory with ```ln -s```.
 Example:
 ```shell
-  $ cd ~/domoticz/plugins/Domoticz-Tuya-Thermostat-Plugin
+  $ cd ~/domoticz/plugins/Domoticz-Brel-Plugin
   $ ln -s /home/pi/.local/lib/python3.5/site-packages/Crypto Crypto
 ```
 
