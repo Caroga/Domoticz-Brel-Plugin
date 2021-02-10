@@ -5,6 +5,7 @@
 * [Compatible hardware](#compatible-hardware)
 * [Software requirements](#software-requirements)
 * [Installation](#installation)
+* [Configuration](#configuration)
 * [Check installed version](#check-installed-version)
 * [Updating plugin](#updating-plugin)
 * [Known issues](#known-issues)
@@ -77,6 +78,28 @@ Example:
 
 ### 4. Restart domoticz and enable Brel Home Hub from the hardware page
 Don't forget to enable "Allow new Hardware" in the Domoticz settings page.
+
+## Configuration
+- Enter the IP of your Brel Home Hub.
+- Enter the KEY of your Brel Home Hub. Get the KEY by quickly tapping 5 times on "Version 1.x.x(x)" in your Brel SmartPhone app. You'll get the 16-byte KEY in a popup, which you can then copy/paste.
+- Don't forget to let Domoticz allow new devices before you activate this plugin!
+- Optionally you can specify default positions and/or angle's for your blinds' Open and Close buttons. Similar to a Favorite position. Read on for learning more about this.
+
+### The "Defaults array" explained
+Let's start with an example:
+```
+  -1:{"o":{"P":15,"A":25},"c":{"P":80,"A":80}}
+```
+- The first number indicated the Domoticz device ID (idx). You can enter "-1" as a fall-back 'default' for ALL devices. Use "0" (zero) for the virtual All-device.
+- Next there will be an "o" or a "c", indicating the settings will be for either "open" or "close".
+- The open- and close-sets need to have at least one "P" or "A" (or both), to specify the blinds Position and Angle.
+- Position values can be 0-100 (%). Angle values can be 0-180 (degrees).
+- All values are optional.
+
+In conclusion, a full array could look like this:
+```
+  -1:{"o":{"P":15,"A":25},"c":{"P":100,"A":90}}, 0:{"o":{"A":25}}, 3:{"c":{"P":80,"A":80}}
+```
 
 ## Check installed version
 To find the current version of the plugin and modules:
