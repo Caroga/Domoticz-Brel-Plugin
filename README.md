@@ -41,7 +41,7 @@ Most systems capable of running domoticz and has a version of python3 available 
 ### 1. Clone Brel plugin into domoticz plugins-directory:
 ```shell
   $ cd domoticz/plugins/
-  $ git clone https://github.com/superjunky/Domoticz-Brel-Plugin.git Domoticz Brel Plugin
+  $ git clone https://github.com/superjunky/Domoticz-Brel-Plugin.git Domoticz-Brel-Plugin
 ```
 
 ### 2. Update pip:
