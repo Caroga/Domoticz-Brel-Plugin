@@ -89,7 +89,7 @@ Let's start with an example:
 ```
   -1:{"o":{"P":15,"A":25},"c":{"P":80,"A":80}}
 ```
-- The first number indicated the Domoticz device ID (idx). You can enter "-1" as a fall-back 'default' for ALL devices. Use "0" (zero) for the virtual All-device.
+- The first number indicated the Domoticz device ID (idx). You can enter "-1" as a fall-back "default" for ALL devices. Use "0" (zero) for the virtual All-device.
 - Next there will be an "o" or a "c", indicating the settings will be for either "open" or "close".
 - The open- and close-sets need to have at least one "P" or "A" (or both), to specify the blinds Position and Angle.
 - Position values can be 0-100 (%). Angle values can be 0-180 (degrees).
@@ -113,8 +113,10 @@ None so far.
 ## Usage
 Lights and devices have to be added to the gateway as per Brel's instructions, using the official Brel app.
 
-### Blinds and curtains
-Domoticz sets the position of a curtain as a percentage between 0 (fully open) to 100 (fully closed). You need to set the maximum posistion of the curtain before using Domoticz. Please refer to the instructions from Brel on how to set the maximum position of a curtain. 
+### Blinds and curtains Position
+Domoticz sets the position of a curtain as a percentage between 0 (fully open) to 100 (fully closed). You need to set the maximum posistion of the curtain before using Domoticz. Please refer to the instructions from Brel on how to set the maximum position of a curtain.
 
-### Venetian blinds
-Besides the position, Domoticz sets the angle of a venetian blind in degrees. A percentage between 0 and 100 is converted by the plugin into degrees between 0 and 180. To open your blinds, set the angle to 50% (which translates to 90 degrees).
+### Venetian blinds Tilt
+Besides the position, Domoticz can set the angle of a venetian blind in degrees. An additional device is created, where the name will end with "Tilt". For this device you can set a percentage between 0 and 100, and is converted by the plugin into degrees between 0 and 180. To open your blinds, set the angle to 50% (which translates to 90 degrees).
+
+By default this Tilt-device in Domoticz will send a 90-degrees-command when switched on, and a 0-degrees-command when switched of. Use the slider to choose a custom position.
