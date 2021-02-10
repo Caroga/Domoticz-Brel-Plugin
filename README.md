@@ -85,7 +85,7 @@ Don't forget to enable "Allow new Hardware" in the Domoticz settings page.
 - Don't forget to let Domoticz allow new devices before you activate this plugin!
 - Optionally you can specify default positions and/or angle's for your blinds' Open and Close buttons. Similar to a Favorite position. Read on for learning more about this.
 
-### The "Defaults array" explained
+#### The "Defaults array" explained
 Let's start with an example:
 ```
   -1:{"o":{"P":15,"A":25},"c":{"P":80,"A":80}}
