@@ -56,7 +56,7 @@ The plugin uses the pycrypto python module ([`https://pypi.org/project/pycrypto/
   $ pip3 install pycrypto
 ```
 
-### 3.1 Let Domoticz know about the pycrypto module
+#### 3.1 Let Domoticz know about the pycrypto module
 Domoticz may not have the path to the pycrypto library in its python environment.
 In this case you will observe something starting like that in the log:
 * failed to load 'plugin.py', Python Path used was
