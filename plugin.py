@@ -3,7 +3,7 @@
 # Author: Superjunky, 2021
 #
 # INSTALL DEPENDENCY:
-# Good tut: https://github.com/iasmanis/Domoticz-Tuya-Thermostat-Plugin
+# There was some trouble to get Domoticz find the pycrypt module. Here is how I messed around:
 # apt-get update
 # apt-get install python3-dev
 # apt-get install python3-pip
