@@ -6,7 +6,6 @@
 * [Software requirements](#software-requirements)
 * [Installation](#installation)
 * [Configuration](#configuration)
-* [Check installed version](#check-installed-version)
 * [Updating plugin](#updating-plugin)
 * [Known issues](#known-issues)
 * [Usage](#usage)
@@ -99,13 +98,6 @@ Let's start with an example:
 In conclusion, a full array could look like this:
 ```
   -1:{"o":{"P":15,"A":25},"c":{"P":100,"A":90}}, 0:{"o":{"A":25}}, 3:{"c":{"P":80,"A":80}}
-```
-
-## Check installed version
-To find the current version of the plugin and modules:
-```shell
-  $ cd domoticz/plugins/Domoticz-Brel-Plugin
-  $ python3 plugin.py version
 ```
 
 ## Updating plugin
