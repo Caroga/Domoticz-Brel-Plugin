@@ -111,7 +111,7 @@ To update the plugin to the newest version, stop domoticz, enter the plugin dire
 None so far.
 
 ## Usage
-Lights and devices have to be added to the gateway as per Brel's instructions, using the official Brel app.
+Devices have to be added to the gateway as per Brel's instructions, using the official Brel app.
 
 ### Blinds and curtains Position
 Domoticz sets the position of a curtain as a percentage between 0 (fully open) to 100 (fully closed). You need to set the maximum posistion of the curtain before using Domoticz. Please refer to the instructions from Brel on how to set the maximum position of a curtain.
